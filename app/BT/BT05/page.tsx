@@ -6,7 +6,7 @@ async function fetchPosts() {
   return data;
 }
 
-export default function SSR_CSR_Page() {
+export default function SSRCSRPage() {
   const [posts, setPosts] = useState([]);
   useEffect(() => {
     const loadPosts = async () => {
